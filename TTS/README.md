@@ -1,5 +1,10 @@
 # Tacotron Korean TTS implementation using pytorch
 
+# checkpoint link(HDH)
+https://drive.google.com/drive/folders/1-HXf0xyM2R0y3i92i7YbXp-82JZXLbfV?usp=sharing
+폴더를 다운받아서 tts폴더안으로 넣으면 됩니다.
+TTS/ckpt/origincode/1/ckpt-400000.pt를 아래의 5번에 넣었으니 그대로 쓰면 됩니다.
+
 ### Training
 
 1. **한국어 음성 데이터 다운로드**
@@ -41,8 +46,8 @@
   
 5. **Synthesize**
    ```
-   python test1.py -c ckpt/finetune1/1/ckpt-400000.pt
-   python test2.py -c ckpt/origincode/2/ckpt-300000.pt
+   python test1.py -c ckpt/origincode/1/ckpt-400000.pt
+   python test2.py -c ckpt/origincode/2/ckpt-100000.pt
    ```
      * test1.py - test2.py 순으로 실행하면 output 폴더에 wav 파일이 생성됩니다
 
