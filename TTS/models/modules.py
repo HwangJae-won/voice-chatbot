@@ -1,7 +1,7 @@
 import torch, librosa
 import numpy as np
 from torch.nn import Module, Linear, ReLU, Dropout, Conv1d, ModuleList, BatchNorm1d, GRU, MaxPool1d, Sigmoid, Softmax, Tanh
-from util.hparams import *
+from TTS_tacotron1.util.hparams import *
 from copy import deepcopy
 
 
