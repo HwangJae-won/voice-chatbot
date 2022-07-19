@@ -1,7 +1,7 @@
 import numpy as np
 from torch.nn import Module, Embedding, Linear, GRUCell
-from models.modules import *
-from util.hparams import *
+from TTS_tacotron1.models.modules import *
+from TTS_tacotron1.util.hparams import *
 
 
 class Encoder(Module):
