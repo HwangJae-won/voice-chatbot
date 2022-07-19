@@ -9,6 +9,6 @@ from TTS_tacotron1.test_tacotron import inference_tacotron1
 
 그리고 챗봇이 답을 print한 이후에
 
-inference_tacotron1([bot_response])를 추가해줍니다.
+inference_tacotron1([bot_response])     를 추가해줍니다. 반!드!시! [bot_response]가 되야합니다.
 
-자동으로 재생까지 해줍니다. 다만 
+자동으로 재생까지 해줍니다.
